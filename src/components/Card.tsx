@@ -1,5 +1,5 @@
 import * as React from "react";
-import { makeStyles } from "@mui/styles";
+import { makeStyles, styled } from "@mui/styles";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
@@ -19,6 +19,13 @@ const useStyles = makeStyles({
   },
 });
 
+const Img = styled("img")({
+  margin: "auto",
+  display: "block",
+  maxWidth: "100%",
+  maxHeight: "100%",
+});
+
 export default function Card({
   item,
   searchTags,
@@ -28,7 +35,7 @@ export default function Card({
 }) {
   const classes = useStyles();
   const MAX_LENGTH = 200;
-  const { name, collection, materials_desc, materials, link } = item;
+  const { name, collection, materials_desc, materials, link, imgSrc } = item;
   const prefix = "https://www.petiteknit.com/";
 
   return (
@@ -50,7 +57,8 @@ export default function Card({
             href={`${prefix}${link}`}
             target="_blank"
           >
-            <Skeleton variant="rectangular" width={128} height={128} />
+            {/* <Skeleton variant="rectangular" width={128} height={128} /> */}
+            <Img alt="complex" src={`${prefix}${imgSrc}`} />
           </ButtonBase>
         </Grid>
         <Grid item xs={12} sm container>
