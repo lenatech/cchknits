@@ -68,6 +68,12 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    if (scrollableContentRef.current) {
+      scrollableContentRef.current.scrollTop = 0;
+    }
+  }, [searchTags]);
+
   const handleTagDelete = (tagToDelete: string) => {
     setSearchTags((prevTags) => prevTags.filter((tag) => tag !== tagToDelete));
   };
