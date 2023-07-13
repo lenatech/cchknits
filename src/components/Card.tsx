@@ -29,6 +29,7 @@ export default function Card({
   const classes = useStyles();
   const MAX_LENGTH = 200;
   const { name, collection, materials_desc, materials, link } = item;
+  const prefix = "https://www.petiteknit.com/";
 
   return (
     <Paper
@@ -44,7 +45,11 @@ export default function Card({
     >
       <Grid container spacing={2}>
         <Grid item>
-          <ButtonBase sx={{ width: 128, height: 128 }} href={link}>
+          <ButtonBase
+            sx={{ width: 128, height: 128 }}
+            href={`${prefix}${link}`}
+            target="_blank"
+          >
             <Skeleton variant="rectangular" width={128} height={128} />
           </ButtonBase>
         </Grid>
