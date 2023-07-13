@@ -73,8 +73,12 @@ function App() {
   };
 
   const tagOptions = Array.from(
-    new Set(items.flatMap(({ materials }) => materials.map(({ name }) => name)))
-  );
+    new Set(
+      items.flatMap(({ materials }) =>
+        materials.flatMap(({ name, brand }) => [name, brand])
+      )
+    )
+  ).sort();
 
   const filteredItems = items.filter(({ materials }) => {
     if (searchTags.length === 0) return true;
@@ -97,9 +101,9 @@ function App() {
               <TextField
                 {...params}
                 variant="outlined"
-                label="Search Yarns"
+                label="Search Yarns / Producer"
                 placeholder={
-                  searchTags.length === 0 ? "Select brand or name..." : ""
+                  searchTags.length === 0 ? "Search Yarns / Producer" : ""
                 }
                 fullWidth
               />
