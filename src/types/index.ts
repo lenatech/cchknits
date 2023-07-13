@@ -10,4 +10,5 @@ export interface Item {
   collection: string; //TODO: make it list
   materials: Material[];
   materials_desc: string;
+  imgSrc: string;
 }
