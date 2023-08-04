@@ -12,3 +12,5 @@ export interface Item {
   materials_desc: string;
   imgSrc: string;
 }
+
+export type SearchTags = string[];
