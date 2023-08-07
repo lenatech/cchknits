@@ -29,7 +29,7 @@
       "materials_desc": "250 (250-300) 300 (300) 300 (300-350) 350 (350) 400 g Tvinni by Isager Yarn (100 g = 510 m [558 yds]) or 300-350 (350) 350-400 (400) 400 (450) 450 (500) 500-550 g Tynn Peer Gynt by Sandnes Garn (50 g = 205 m [224 yds]) held together with 150-175 (175) 175-200 (200) 200 (225) 225 (250) 250-275 g Silk Mohair by Sysleriget (50 g = 420 m [459 yds]) or Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]), 4 buttons (\u00d8 = 22-23 mm)",
       "id": 0,
       "imgSrc": "/cdn/shop/files/agnetecardigansommer3_760x.jpg?v=1686574795",
-      "needle_sizes": ["23", "2.5", "3"],
+      "needle_sizes": ["2.5", "3"],
       "gauge": {
         "sts": 19,
         "rows": 56,
@@ -429,7 +429,7 @@
       "materials_desc": "100 (150) 150 (150) 150 (200) 200 (250) 250 g Duo by Sandnes Garn (50 g = 115 m [126 yds]), 6 buttons (\u00f8 = 13 mm)",
       "id": 19,
       "imgSrc": "/cdn/shop/products/anna2_ea6c3c9a-b4ce-4e08-97d2-bb0ca4bc4784_760x.jpg?v=1631866261",
-      "needle_sizes": ["3.5", "13", "3"],
+      "needle_sizes": ["3.5", "3"],
       "gauge": {
         "sts": 23,
         "rows": 34,
@@ -449,7 +449,7 @@
       "materials_desc": "250-300 (300) 300 (350) 350 g Duo by Sandnes Garn (50 g = 115 m [126 yds]), 8 (9) 10 (10) 10 buttons (\u00f8 = 13 mm)",
       "id": 20,
       "imgSrc": "/cdn/shop/products/asta1_054e229e-4ed8-4cac-9dd1-346db330cf66_760x.jpg?v=1631866668",
-      "needle_sizes": ["3.5", "13", "3"],
+      "needle_sizes": ["3.5", "3"],
       "gauge": {
         "sts": 23,
         "rows": 34,
@@ -481,7 +481,7 @@
       "materials_desc": "200 (200) 250 (250) 250-300 (300) 300 (350) 350 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) held together with 100 (100-125) 125 (125) 125-150 (150) 150 (175) 175 g Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]) or Brushed Lace by Mohair By Canard (25 g = 210 m [230 yds]) or Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]), 4 buttons (\u00f8 = 21-23 mm)",
       "id": 21,
       "imgSrc": "/cdn/shop/products/april3_38ba8609-08a7-49f3-aa49-0131be704492_760x.jpg?v=1631869205",
-      "needle_sizes": ["4", "3.5", "23", "3"],
+      "needle_sizes": ["4", "3.5", "3"],
       "gauge": {
         "sts": 21,
         "rows": 28,
@@ -597,7 +597,7 @@
       "materials_desc": "250 (300) 300 (300) 350 g Arwetta by Filcolana (50 gr = 210 m [230 yds]) held together with 125 (150) 150 (150) 175 g Tilia by Filcolana (25 g = 210 m [230 yds]) or 125 (150) 150 (150) 175 g Kid Seta from Gepard Garn (25 gr = 210 m [230 yds]),\u00a04 large buttons (20 \u2013 25 mm)",
       "id": 25,
       "imgSrc": "/cdn/shop/products/balloncardigan1Cropped_760x.jpg?v=1631878059",
-      "needle_sizes": ["4", "25"],
+      "needle_sizes": ["4"],
       "gauge": {
         "sts": 21,
         "rows": 29,
@@ -693,7 +693,7 @@
       "materials_desc": "150 (150) 150 (200) 200 (200-250) 250 (250) 300 (300) 300 (350) g Alpakka by Sandnes Garn (50 g = 110 m [120 yds])\u00a0or\u00a0Pernilla by Filcolana (50 g = 175 m [191 yds]), 6 (6) 7 (7) 7 (7) 7 (8) 8 (8) 8 (8) buttons (\u00f8 = 13-15 mm)",
       "id": 28,
       "imgSrc": "/cdn/shop/products/begynder2Cropped2_760x.jpg?v=1632753787",
-      "needle_sizes": ["4", "15"],
+      "needle_sizes": ["4"],
       "gauge": {
         "sts": 23,
         "rows": 46,
@@ -765,7 +765,7 @@
       "materials_desc": "150 (200) 200 (200) 250 (300) 300 (300) 350 g Alpakka Ull from Sandnes Garn (50 g = 100 m [109 yds]), 5 (5) 5 (5) 6 (6) 6 (6) 6 buttons (\u00f8 = 14 mm)",
       "id": 31,
       "imgSrc": "/cdn/shop/products/carlscardigan_8967_760x.jpg?v=1648725613",
-      "needle_sizes": ["4", "14", "3"],
+      "needle_sizes": ["4", "3"],
       "gauge": {
         "sts": 28,
         "rows": 22,
@@ -789,7 +789,7 @@
       "materials_desc": "500-550 (550) 600 (600) 600 (650) 700 (750) 750 g Double Sunday by Sandnes Garn (50 g = 108 m [118 yds]) held together with 125 (125) 150 (150) 175 (175) 175 (200) 200 g Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]). 4 buttons (\u00f8 = 22-24 mm).",
       "id": 32,
       "imgSrc": "/cdn/shop/products/cham17_ce49add0-b05d-40a5-8f6a-c8f0c9e03495_760x.jpg?v=1679389922",
-      "needle_sizes": ["4.5", "3", "24"],
+      "needle_sizes": ["4.5", "3"],
       "gauge": {
         "sts": 18,
         "rows": 28,
@@ -973,7 +973,7 @@
       "materials_desc": "150 (200) 200 (200) 200 (250) g Alpaca 2 from Isager Yarn (50 g = 250 m) held together with 100 (100) 125 (125) 125 (150) g Silk Mohair from Isager Yarn (25 g = 212 m), 7 (7) 7 (7) 8 (8) buttons (\u00f8 = 13 mm)",
       "id": 39,
       "imgSrc": "/cdn/shop/products/cop3_dc13da72-3f70-446d-9c13-7b7054415907_760x.jpg?v=1632913418",
-      "needle_sizes": ["4", "3.5", "13"],
+      "needle_sizes": ["4", "3.5"],
       "gauge": {
         "sts": 21,
         "rows": 28,
@@ -1317,7 +1317,7 @@
       "materials_desc": "150 (200) 250 (300) 350 g Alpakka from Sandnes Garn (50 g = 110 m [120 yds]) or Duo from Sandnes Garn (50 g = 124 m [136 yds]) or Tussah Silk from Onion (50 g = 135 m [148 yds]) (the exact amount of yarn used depends on the type of yarn chosen, if yardage is shorter, get an extra ball so that you do not to run out of it), soft elastic band (2 cm wide), 8-11 buttons (12-14 mm diameter)",
       "id": 51,
       "imgSrc": "/cdn/shop/products/ellen1Cropped_add95678-af48-42df-b2ab-ba41e07754db_760x.jpg?v=1632922192",
-      "needle_sizes": ["3.5", "14"],
+      "needle_sizes": ["3", "3.5"],
       "gauge": {
         "sts": 23,
         "rows": 32,
@@ -2445,7 +2445,7 @@
       "materials_desc": "550 (550-600) 600 (750) 800 (800) 850 (900) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) held together with 150-175 (175) 175 (200) 200 (200) 225 (225-250) g Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]). Note that two strands of Sunday and one strand of Tynn Silk Mohair are held together throughout and that the given yardage amounts are the total yardage needed. \n6 (6) 6 (7) 8 (8) 8 (8) buttons (\u00f8 = 18-20 mm)",
       "id": 92,
       "imgSrc": "/cdn/shop/products/jenny2_c1497739-f175-4def-bdad-5c907b3d692a_760x.jpg?v=1651834403",
-      "needle_sizes": ["4", "3.5", "20"],
+      "needle_sizes": ["4", "3.5"],
       "gauge": {
         "sts": 30,
         "rows": 26,
@@ -2649,7 +2649,7 @@
       "materials_desc": "50 (50) 50 (50) 100 (100) 100 g Esther by Permin (50 g = 230 m [252 yds]) or Merino Singles by Sysleriget (100 g = 366 m [400 yds]) (the last one held double with another strand of lace weight yarn, 50 g = 300-400 m [328-437 yds]), 5-6 buttons (approx. 12 mm)",
       "id": 100,
       "imgSrc": "/cdn/shop/products/lillesosters5_760x.jpg?v=1635427229",
-      "needle_sizes": ["12", "3"],
+      "needle_sizes": ["3"],
       "gauge": {
         "sts": 26,
         "rows": 36,
@@ -3053,7 +3053,7 @@
       "materials_desc": "200 (200-250) 250 (250) 250 (300) 300 (350) 350-400 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) held together with 100-125 (125) 125 (125) 125-150 (150-175) 175 (200) 200-225 g Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]) or Brushed Lace by Mohair By Canard (25 g = 212 m [232 yds]),\u00a03 buttons (\u00f8 = 18-20 mm)",
       "id": 116,
       "imgSrc": "/cdn/shop/products/Maude11_376a317b-47ea-4dc1-8da9-a6d1a959b462_760x.jpg?v=1682343634",
-      "needle_sizes": ["4", "20", "3"],
+      "needle_sizes": ["4", "3"],
       "gauge": {
         "sts": 21,
         "rows": 28,
@@ -3885,7 +3885,7 @@
       "materials_desc": "350 (400) 400 (400-450) 450 (450) 450-500 (500) 550 g Alpaca 3 by Isager Yarn (50 g = 125 m) or\u00a0 Snefnug by CaMaRose (50 g = 110 m) or 250 (300) 300-350 (350) 350 (350) 350-400 (400) 450 g Kos by Sandnes Yarn (50 g = 150 m) held together with 100 (100) 100-125 (125) 125 (125) 125 (150) 150 g Silk Mohair by Isager Yarn (25 g = 212 m) or Tynn Silk Mohair by Sandnes Garn (25 g = 212 m) or Brushed Lace by Mohair By Canard (25 g = 210 m). Note: Two strands of yarn are held together throughout (one strand of the thick yarn and one strand of silk mohair) The given yardage is the total yardage needed. 6 buttons (\u00f8 = 23 mm)",
       "id": 144,
       "imgSrc": "/cdn/shop/products/novice4_5db94042-2372-490c-9a44-c42aa1b57bbc_760x.jpg?v=1639059750",
-      "needle_sizes": ["23", "7", "6"],
+      "needle_sizes": ["7", "6"],
       "gauge": {
         "sts": 14,
         "rows": 21,
@@ -3917,7 +3917,7 @@
       "materials_desc": "200 (200-225) 225 (250) 250 (275) 300 (325) 350-375 g Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]) or Tilia by Filcolana (25 g = 210 m [232 yds]) or Brushed Lace by Mohair By Canard (25 g = 210 m [232 yds]). Note: Two strand of yarn are held together throughout. The given yardage amounts are the total yardage needed.\u00a09 buttons (\u00f8 = 15 mm).",
       "id": 145,
       "imgSrc": "/cdn/shop/products/novice10_f6921ee5-7e01-4a63-9bce-98da1604273f_760x.jpg?v=1682326788",
-      "needle_sizes": ["4", "3.5", "15"],
+      "needle_sizes": ["4", "3.5"],
       "gauge": {
         "sts": 21,
         "rows": 28,
@@ -3941,7 +3941,7 @@
       "materials_desc": "150 (150) 200 (200) 250 g Kos from Sandnes Yarn (50 g = 150 m) held together with 75 (75) 75 (75) 75 g Tynn Silk Mohair from Sandnes Yarn (25 g = 212 m) Note: Two strands of yarn are held together throughout (one strand of the thick yarn and one strand of silk mohair) The given yardage is the total yardage needed. 6 buttons (\u00f8 = 18 mm)",
       "id": 146,
       "imgSrc": "/cdn/shop/products/chunkyjunior1_f606af85-bd2f-46a6-9f27-10a609893a96_760x.jpg?v=1635777525",
-      "needle_sizes": ["7", "18", "6"],
+      "needle_sizes": ["7", "6"],
       "gauge": {
         "sts": 14,
         "rows": 21,
@@ -3973,7 +3973,7 @@
       "materials_desc": "150 (150) 175 (175-200) 200 g Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]) or Tilia by Filcolana (25 g = 210 m [230 yds]) or Brushed Lace by Mohair By Canard (25 g = 210 m [230 yds]). Note: Two strands of yarn are held together throughout. The given yardage is the total yardage needed.\u00a08 (8) 8 (9) 9 buttons (13-15 mm)",
       "id": 147,
       "imgSrc": "/cdn/shop/products/novice5-kopi_760x.jpg?v=1635779618",
-      "needle_sizes": ["4", "3.5", "15"],
+      "needle_sizes": ["4", "3.5"],
       "gauge": {
         "sts": 21,
         "rows": 28,
@@ -3997,7 +3997,7 @@
       "materials_desc": "150 (150) 150 (150) 150 g Kos from Sandnes Yarn (50 g = 150 m) held together with 50 (50) 50 (50) 50-75 g Tynn Silk Mohair from Sandnes Yarn (25 g = 212 m). Note: Two strands of yarn are held together throughout (one strand of the thick yarn and one strand of silk mohair) The given yardage is the total yardage needed.\u00a06 buttons (\u00f8 = 15 - 18 mm)",
       "id": 148,
       "imgSrc": "/cdn/shop/products/Ellen3_6af9c09d-efb0-42cc-9420-3bb879bce71b_760x.jpg?v=1635780222",
-      "needle_sizes": ["7", "18", "6"],
+      "needle_sizes": ["7", "6"],
       "gauge": {
         "sts": 14,
         "rows": 21,
@@ -4025,7 +4025,7 @@
       "materials_desc": "75 (75) 100 (100) 100 (125) 125-150 g Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]) or Tilia by Filcolana (25 g = 210 m [230 yds]) or Brushed Lace by Mohair By Canard (25 g = 210 m [232 yds]). Note: Two strands of yarn are held together throughout. The given yardage amounts are the total yardage needed.\u00a06 (6) 6 (6) 7 (7) 7 buttons (13-15 mm).",
       "id": 149,
       "imgSrc": "/cdn/shop/products/NoviceMinihvid_a739850f-bc4b-429c-a45d-31c49e3529a8_760x.jpg?v=1635837915",
-      "needle_sizes": ["4", "3.5", "15"],
+      "needle_sizes": ["4", "3.5"],
       "gauge": {
         "sts": 21,
         "rows": 28,
@@ -4677,7 +4677,7 @@
       "materials_desc": "150 (150) 150 (150-200) 200 (200) 200 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) in the main color and 50 (50) 50 (50-100) 100 (100) 100 (100) g in the contrast color for the stripes. Please note that the given yardage amounts are the total yardage needed when holding two strands together throughout. 3 buttons (\u00f8 = 15 mm). Yardage for sweater with no stripes: 200 (200) 200 (200-250) 250 (250) 300 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]",
       "id": 173,
       "imgSrc": "/cdn/shop/products/seaside9_2ebf23a9-5299-4125-af78-d8974cd2797a_760x.jpg?v=1635868688",
-      "needle_sizes": ["4", "3.5", "15"],
+      "needle_sizes": ["4", "3.5"],
       "gauge": {
         "sts": 20,
         "rows": 28,
@@ -4697,7 +4697,7 @@
       "materials_desc": "250 (250) 250 (250-300) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) in the main color and 100 (100-150) 150 (150) g in the contrast color for the stripes. Yardage for sweater with no stripes: 350 (350) 350 (400) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]. 3 buttons (\u00f8 = 15 mm). Please note that the given yardage amounts are the total yardage needed when holding two strands together throughout.",
       "id": 174,
       "imgSrc": "/cdn/shop/products/seasidesweaterjunior1_1_86910143-662c-4e7c-aba3-856ac1765a6f_760x.jpg?v=1636450250",
-      "needle_sizes": ["4", "3.5", "15"],
+      "needle_sizes": ["4", "3.5"],
       "gauge": {
         "sts": 20,
         "rows": 28,
@@ -4721,7 +4721,7 @@
       "materials_desc": "250-300 (350) 400 (450) 500 g Snefnug by CaMaRose (50 g = 110 m [120 yds]) or 400 (400) 500 (500) 700 g Frisenvang Thick Quality Baby Alpaca (100 g = 150-200 m [164-219 yds]), 5 (5) 6 (7) 7 buttons (\u00f8 = 15 mm)",
       "id": 175,
       "imgSrc": "/cdn/shop/products/snefnug8_ad8ff34c-6519-41af-95d2-d5be01dcec91_760x.jpg?v=1636458993",
-      "needle_sizes": ["4", "15"],
+      "needle_sizes": ["4"],
       "gauge": {
         "sts": 19,
         "rows": 34,
@@ -4769,7 +4769,7 @@
       "materials_desc": "250 (250) 250 (300) 300 (300) 300-350 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) held together with 225 (225) 225-250 (250-275) 275-300 (300) 300-325 g Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]). Please note: Three strands of yarn are held together throughout the pattern (one strand of Sunday and two strands of Tynn Silk Mohair), and the yardage given is the total yardage needed. Thin elastic thread for the neck edge (for example knitting-in elastic). 5 buttons and the same number of large popper buttons (\u00f8 = 21 mm) for all sizes.",
       "id": 177,
       "imgSrc": "/cdn/shop/products/september13nytone_760x.jpg?v=1636463060",
-      "needle_sizes": ["3.5", "4.5", "4", "21"],
+      "needle_sizes": ["3.5", "4.5", "4"],
       "gauge": {
         "sts": 12,
         "rows": 38,
@@ -5429,7 +5429,7 @@
       "materials_desc": "400 (400) 400 (500) 500 g Inca Wool by Hjertegarn (100 g = 160 m) held together with 125 (150) 150 (175) 175 g Soft Silk Mohair by Knitting For Olive (25 g = 210 m) or Silk Mohair by Isager Yarn (25 g = 212 m) or Tilia by Filcolana (25 g = 210 m). Note that you will knit with one strand of Inca Wool held together with two strands of silk mohair throughout the work (the amounts above represent the total yardage needed). 5 buttons (\u00d8 = 28 mm)",
       "id": 200,
       "imgSrc": "/cdn/shop/products/sundaycardigan3jpg_760x.jpg?v=1636641650",
-      "needle_sizes": ["6", "7", "28", "8"],
+      "needle_sizes": ["6", "7", "8"],
       "gauge": {
         "sts": 12,
         "rows": 17,
@@ -5485,7 +5485,7 @@
       "materials_desc": "150 (150) 150 (150) 150 (150) 200 (200) 200 g of Kos by Sandnes Garn (50 g = 150 m [164 yds]) held together with 50 (50) 50 (50) 50 (50) 75 (75) 75 g of Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Brushed Lace by Mohair by Canard (25 g = 210 m [230 yds]), 5 (5) 5 (5) 5 (5) 6 (6) 6 buttons (\u00f8 = 23 mm) and a darning needle.",
       "id": 202,
       "imgSrc": "/cdn/shop/products/sun2_d18cd9b1-b5f9-4057-bd63-96c1058117b2_760x.jpg?v=1639732035",
-      "needle_sizes": ["23", "7", "6"],
+      "needle_sizes": ["7", "6"],
       "gauge": {
         "sts": 14,
         "rows": 21,
@@ -5509,7 +5509,7 @@
       "materials_desc": "Approx. 25 (33) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) held together with approx. 13 (17) g Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]), 1 button (\u00f8 12-20 mm)",
       "id": 203,
       "imgSrc": "/cdn/shop/products/collar4_760x.jpg?v=1679560485",
-      "needle_sizes": ["20", "3"],
+      "needle_sizes": ["3"],
       "gauge": {
         "sts": 25,
         "rows": 33,
@@ -5585,7 +5585,7 @@
       "materials_desc": "100 (100) 150 (150) 150 (200) 200 (250) 250 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]), 8 (8) 9 (10) 11 (12) 13 (13) 14 buttons (\u00f8 13 mm)",
       "id": 206,
       "imgSrc": "/cdn/shop/products/sundaysuit11_760x.jpg?v=1640877665",
-      "needle_sizes": ["13", "2.5", "3"],
+      "needle_sizes": ["2.5", "3"],
       "gauge": {
         "sts": 28,
         "rows": 40,
@@ -6177,7 +6177,7 @@
       "materials_desc": "150 (200) 200 (250) 250-300 (300) 300-350 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]),\u00a01 small button (\u00f8 = 10 mm)",
       "id": 228,
       "imgSrc": "/cdn/shop/products/sunday10_aafd28f1-8cf0-4820-b540-4da99d2fb0ac_760x.jpg?v=1635502446",
-      "needle_sizes": ["2.5", "3", "10"],
+      "needle_sizes": ["2.5", "3"],
       "gauge": {
         "sts": 28,
         "rows": 40,
@@ -6509,7 +6509,7 @@
       "materials_desc": "100 (100) 100-150 (150) 150 (200) 200 g Duo by Sandnes Garn (50 g = 115 m [126 yds]) 2 buttons (\u00f8 12-15 mm)",
       "id": 239,
       "imgSrc": "/cdn/shop/products/willumssommer18_e9542e07-4870-4b39-b62c-e46082be3421_760x.jpg?v=1654673467",
-      "needle_sizes": ["2.5", "3", "15"],
+      "needle_sizes": ["2.5", "3"],
       "gauge": {
         "sts": 26,
         "rows": 36,
