@@ -10,13 +10,16 @@ export const SearchTagsProvider: React.FC<SearchTagsProviderProps> = ({
   children,
 }) => {
   const [searchTags, setSearchTags] = useState<string[]>([]);
+  const [needles, setNeedleSizes] = useState<string[]>([]);
 
   const handleTagDelete = (tagToDelete: string) => {
     setSearchTags((prevTags) => prevTags.filter((tag) => tag !== tagToDelete));
   };
 
   const handleTagAddition = (tagToAdd: string[]) => {
-    setSearchTags((prevTags) => [...prevTags, ...tagToAdd]);
+    setSearchTags((prevTags) =>
+      Array.from(new Set([...prevTags, ...tagToAdd]))
+    );
   };
 
   const handleClearSearch = () => {
@@ -26,6 +29,8 @@ export const SearchTagsProvider: React.FC<SearchTagsProviderProps> = ({
   return (
     <SearchTagsContext.Provider
       value={{
+        needles,
+        setNeedleSizes,
         searchTags,
         setSearchTags,
         handleTagDelete,
