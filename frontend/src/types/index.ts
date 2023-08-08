@@ -11,4 +11,12 @@ export interface Item {
   materials: Material[];
   materials_desc: string;
   imgSrc: string;
+  gauge: {
+    sts: number;
+    rows: number;
+    needle_size: number;
+  };
+  needle_sizes: string[];
 }
+
+export type SearchTags = string[];

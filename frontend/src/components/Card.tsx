@@ -1,23 +1,16 @@
 import * as React from "react";
-import { makeStyles, styled } from "@mui/styles";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
-import ButtonBase from "@mui/material/ButtonBase";
-import Chip from "@mui/material/Chip";
-import Skeleton from "@mui/material/Skeleton";
+import {
+  ButtonBase,
+  Chip,
+  Grid,
+  Paper,
+  Stack,
+  Typography,
+} from "@mui/material";
+import { styled } from "@mui/styles";
 
+import { useSearchTags } from "../providers/SearchTags";
 import { Item as ItemTypes } from "../types";
-
-const useStyles = makeStyles({
-  chipContainer: {
-    display: "flex",
-    flexWrap: "wrap",
-    "& > *": {
-      margin: "0.25rem",
-    },
-  },
-});
 
 const Img = styled("img")({
   margin: "auto",
@@ -26,17 +19,22 @@ const Img = styled("img")({
   maxHeight: "100%",
 });
 
-export default function Card({
-  item,
-  searchTags,
-}: {
-  item: ItemTypes;
-  searchTags: string[];
-}) {
-  const classes = useStyles();
+export default function Card({ item }: { item: ItemTypes }) {
+  const { searchTags, handleTagAddition } = useSearchTags();
   const MAX_LENGTH = 200;
-  const { name, collection, materials_desc, materials, link, imgSrc } = item;
+  const { name, materials_desc, materials, link, imgSrc, needle_sizes, gauge } =
+    item;
   const prefix = "https://www.petiteknit.com/";
+
+  const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    const [yarn, brand] =
+      event.currentTarget.textContent?.split(" - ").map((tag) => tag.trim()) ||
+      [];
+
+    if (yarn && brand) {
+      handleTagAddition([yarn]);
+    }
+  };
 
   return (
     <Paper
@@ -67,17 +65,28 @@ export default function Card({
               <Typography gutterBottom variant="subtitle1" component="div">
                 {name}
               </Typography>
+              <Typography variant="body2">
+                {`${gauge.sts} sts x ${gauge.rows} rows [${gauge.needle_size}mm]`}
+              </Typography>
               <Typography variant="body2" gutterBottom>
-                {collection}
+                {`${needle_sizes.sort().join(" mm, ")} mm`}
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 {materials_desc.length > MAX_LENGTH
                   ? `${materials_desc.slice(0, MAX_LENGTH)}...`
                   : materials_desc}
               </Typography>
+              <Typography variant="body2" color="text.secondary">
+                {`${gauge.sts} sts x ${gauge.rows} rows ${gauge.needle_size}mm`}
+              </Typography>
             </Grid>
             <Grid item>
-              <div className={classes.chipContainer}>
+              <Stack
+                spacing={{ xs: 1, sm: 2 }}
+                direction="row"
+                useFlexGap
+                flexWrap="wrap"
+              >
                 {materials.map((material, index) => {
                   const isTagSelected =
                     searchTags.includes(material.name) ||
@@ -93,11 +102,13 @@ export default function Card({
                         backgroundColor: isTagSelected ? "#6fc276" : undefined,
                         color: isTagSelected ? "white" : undefined,
                       }}
+                      {...(isTagSelected ? { clickable: false } : {})}
+                      onClick={handleClick}
                       size="small"
                     />
                   );
                 })}
-              </div>
+              </Stack>
             </Grid>
           </Grid>
         </Grid>
