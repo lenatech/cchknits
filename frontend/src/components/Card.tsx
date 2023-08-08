@@ -103,7 +103,7 @@ export default function Card({ item }: { item: ItemTypes }) {
                         color: isTagSelected ? "white" : undefined,
                       }}
                       {...(isTagSelected ? { clickable: false } : {})}
-                      onClick={handleClick}
+                      {...(isTagSelected ? {} : { onClick: handleClick })}
                       size="small"
                     />
                   );
