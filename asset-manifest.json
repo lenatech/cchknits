@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cchknits/static/css/main.1ef3a49a.css",
-    "main.js": "/cchknits/static/js/main.c78a7624.js",
+    "main.js": "/cchknits/static/js/main.4639d1e9.js",
     "static/js/787.9fd59a2b.chunk.js": "/cchknits/static/js/787.9fd59a2b.chunk.js",
     "index.html": "/cchknits/index.html",
     "main.1ef3a49a.css.map": "/cchknits/static/css/main.1ef3a49a.css.map",
-    "main.c78a7624.js.map": "/cchknits/static/js/main.c78a7624.js.map",
+    "main.4639d1e9.js.map": "/cchknits/static/js/main.4639d1e9.js.map",
     "787.9fd59a2b.chunk.js.map": "/cchknits/static/js/787.9fd59a2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ef3a49a.css",
-    "static/js/main.c78a7624.js"
+    "static/js/main.4639d1e9.js"
   ]
 }
