@@ -76,9 +76,6 @@ export default function Card({ item }: { item: ItemTypes }) {
                   ? `${materials_desc.slice(0, MAX_LENGTH)}...`
                   : materials_desc}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {`${gauge.sts} sts x ${gauge.rows} rows ${gauge.needle_size}mm`}
-              </Typography>
             </Grid>
             <Grid item>
               <Stack

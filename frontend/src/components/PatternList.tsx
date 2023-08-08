@@ -19,11 +19,11 @@ const useStyles = makeStyles({
 
 export default function PatternList() {
   const classes = useStyles();
-  const { searchTags } = useSearchTags();
+  const { searchTags, needles } = useSearchTags();
   const scrollableContentRef = useRef<HTMLDivElement>(null);
 
   const items: ItemTypes[] = data.items;
-  const filteredItems = filterBySearchTags(items, searchTags);
+  const filteredItems = filterBySearchTags(items, searchTags, needles);
 
   useEffect(() => {
     const resizeHandler = () => {

@@ -34,19 +34,29 @@ const useStyles = makeStyles({
 
 export default function SearchField() {
   const classes = useStyles();
-  const { searchTags, handleTagDelete, handleTagAddition, handleClearSearch } =
-    useSearchTags();
+  const {
+    searchTags,
+    handleTagDelete,
+    handleTagAddition,
+    handleClearSearch,
+    needles,
+    setNeedleSizes,
+  } = useSearchTags();
 
   const items: ItemTypes[] = data.items;
-  const filteredItems = filterBySearchTags(items, searchTags);
+  const filteredItems = filterBySearchTags(items, searchTags, needles);
 
   const tagOptions = Array.from(
     new Set(
-      items.flatMap(({ materials }) =>
+      filteredItems.flatMap(({ materials }) =>
         materials.flatMap(({ name, brand }) => [name, brand])
       )
     )
   ).sort();
+
+  const needleOptions = Array.from(
+    new Set(items.flatMap(({ needle_sizes }) => needle_sizes))
+  ).sort((a, b) => Number(a) - Number(b));
 
   return (
     <div className={classes.searchBarContainer}>
@@ -81,6 +91,49 @@ export default function SearchField() {
                 key={tag}
                 className={classes.tag}
                 onDelete={() => handleTagDelete(tag)}
+              />
+            ))
+          }
+        />
+      </div>
+      <div className={classes.searchBar}>
+        <Autocomplete
+          multiple
+          options={needleOptions}
+          value={needles}
+          onChange={(_, value) =>
+            setNeedleSizes((prevTags) =>
+              Array.from(new Set([...prevTags, ...value]))
+            )
+          }
+          onInputChange={(_, __, reason) => {
+            if (reason === "clear") setNeedleSizes([]);
+          }}
+          getOptionLabel={(option) => `${option} mm`}
+          renderInput={(params: AutocompleteRenderInputParams) => (
+            <TextField
+              {...params}
+              variant="outlined"
+              label="Needle Sizes"
+              placeholder={searchTags.length === 0 ? "Needle Sizes" : ""}
+              fullWidth
+            />
+          )}
+          renderTags={(
+            value: string[],
+            getTagProps: AutocompleteRenderGetTagProps
+          ) =>
+            value.map((currentTag, index) => (
+              <Chip
+                {...getTagProps({ index })}
+                label={`${currentTag} mm`}
+                key={currentTag}
+                className={classes.tag}
+                onDelete={() =>
+                  setNeedleSizes((prevTags) =>
+                    prevTags.filter((tag) => tag !== currentTag)
+                  )
+                }
               />
             ))
           }
