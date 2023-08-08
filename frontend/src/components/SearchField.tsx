@@ -1,8 +1,11 @@
 import React from "react";
+import CheckBoxIcon from "@mui/icons-material/CheckBox";
+import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import {
   Autocomplete,
   AutocompleteRenderGetTagProps,
   AutocompleteRenderInputParams,
+  Checkbox,
   Chip,
   TextField,
   Typography,
@@ -13,6 +16,9 @@ import data from "../api/data.json";
 import { useSearchTags } from "../providers/SearchTags";
 import { Item as ItemTypes } from "../types";
 import { filterBySearchTags } from "../utils/commons";
+
+const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
+const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 const useStyles = makeStyles({
   searchBarContainer: {
@@ -55,7 +61,7 @@ export default function SearchField() {
   ).sort();
 
   const needleOptions = Array.from(
-    new Set(items.flatMap(({ needle_sizes }) => needle_sizes))
+    new Set(filteredItems.flatMap(({ needle_sizes }) => needle_sizes))
   ).sort((a, b) => Number(a) - Number(b));
 
   return (
@@ -118,6 +124,17 @@ export default function SearchField() {
               placeholder={searchTags.length === 0 ? "Needle Sizes" : ""}
               fullWidth
             />
+          )}
+          renderOption={(props, option, { selected }) => (
+            <li {...props}>
+              <Checkbox
+                icon={icon}
+                checkedIcon={checkedIcon}
+                style={{ marginRight: 8 }}
+                checked={selected}
+              />
+              {`${option} mm`}
+            </li>
           )}
           renderTags={(
             value: string[],
