@@ -3,6 +3,7 @@ import {
   ButtonBase,
   Chip,
   Grid,
+  Link,
   Paper,
   Stack,
   Typography,
@@ -22,8 +23,16 @@ const Img = styled("img")({
 export default function Card({ item }: { item: ItemTypes }) {
   const { searchTags, handleTagAddition } = useSearchTags();
   const MAX_LENGTH = 200;
-  const { name, materials_desc, materials, link, imgSrc, needle_sizes, gauge } =
-    item;
+  const {
+    name,
+    materials_desc,
+    materials,
+    link,
+    imgSrc,
+    needle_sizes,
+    gauge,
+    tag,
+  } = item;
   const prefix = "https://www.petiteknit.com/";
 
   const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
@@ -65,6 +74,13 @@ export default function Card({ item }: { item: ItemTypes }) {
               <Typography gutterBottom variant="subtitle1" component="div">
                 {name}
               </Typography>
+              <Link
+                href={`https://www.instagram.com/explore/tags/${tag}/`}
+                target="_blank"
+              >
+                <Typography variant="body2">{`#${tag}`}</Typography>
+              </Link>
+
               <Typography variant="body2">
                 {`${gauge.sts} sts x ${gauge.rows} rows [${gauge.needle_size}mm]`}
               </Typography>

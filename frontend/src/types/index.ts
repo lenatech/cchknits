@@ -17,6 +17,7 @@ export interface Item {
     needle_size: number;
   };
   needle_sizes: string[];
+  tag: string;
 }
 
 export type SearchTags = string[];
