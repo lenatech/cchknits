@@ -1398,6 +1398,27 @@
       "tag": "ellenplayset"
     },
     {
+      "name": "Eva Cardigan",
+      "link": "en/products/eva-cardigan",
+      "collection": "voksen",
+      "materials": [
+        {
+          "name": "Peer Gynt",
+          "brand": "Sandnes Garn"
+        }
+      ],
+      "materials_desc": "550-600 (600) 600 (650) 650 (700) 750 (800) 850 (900) g Peer Gynt by Sandnes Garn (50 g = 91 m [98 yds]), 4 buttons (Ø = 25-28 mm)",
+      "id": 54,
+      "imgSrc": "/cdn/shop/files/evacardiganhvidvaeg1_6df89c89-3a8d-4a2a-bb4a-c1d2c6bf06c4_240x240.jpg?v=1691767129",
+      "needle_sizes": ["3.5", "4"],
+      "gauge": {
+        "sts": 20,
+        "rows": 30,
+        "needle_size": 4
+      },
+      "tag": "evacardign"
+    },
+    {
       "name": "Everyday Balaclava",
       "link": "en/products/everyday-balaclava",
       "collection": "huer",
