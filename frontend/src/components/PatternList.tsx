@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from "react";
+
 import data from "../api/data.json";
 import { useSearchTags } from "../providers/SearchTags";
 import { Item as ItemTypes } from "../types";
 import { filterBySearchTags } from "../utils/commons";
+
 import Card from "./Card";
 
 export default function PatternList() {
