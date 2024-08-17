@@ -5947,6 +5947,28 @@
       }
     },
     {
+      "name": "Storm Sweater",
+      "link": "en/products/storm-sweater",
+      "collection": "voksen",
+      "materials": [
+        {
+          "name": "Peer Gynt",
+          "brand": "Sandes Garn"
+        }
+      ],
+      "materials_desc": "650 (700-750) 750 (750) 800 (800) 850 (850) 900 (950) g Peer Gynt by Sandnes Garn (50 g = 91 m [98 yds]) ",
+      "id": 196,
+      "imgSrc": "/cdn/shop/files/stormsweaterby36_1500x1500.jpg?v=1710171931",
+      "needle_sizes": [
+        "4"
+      ],
+      "gauge": {
+        "sts": 20,
+        "rows": 32,
+        "needle_size": 4.0
+      }
+    },
+    {
       "name": "Structure Scarf",
       "link": "en/products/structure-scarf-5",
       "collection": "voksen",
