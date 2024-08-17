@@ -7,10 +7,10 @@ import { PatternList, SearchField } from "./components";
 
 import "./App.css";
 
-const StyledContainer = styled(Container)(({ theme }) => ({
+const StyledContainer = styled(Container)({
   marginBottom: "2rem",
   backgroundColor: "white",
-}));
+});
 
 function App() {
   return (
