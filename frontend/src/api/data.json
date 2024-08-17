@@ -1,6 +1,3 @@
-// 20240817094714
-// https://raw.githubusercontent.com/lenatech/cchknits/main/frontend/src/api/data.json
-
 {
   "items": [
     {
@@ -323,7 +320,7 @@
       ],
       "materials_desc": "150 (150) 200 (200) 200 (200) 250 (250-300) 300 (300) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]), 6 buttons (ø = 15 mm)\nPlease note that the Anker’s Jacket is worked in 2 strands of yarn held together throughout, and the given yardage amounts are the total yardage needed.",
       "id": 11,
-      "imgSrc": "/cdn/shop/products/anker5_839bc768-e9e5-4b45-81bc-9aeffec67c66_760x.jpg?v=1639055237",
+      "imgSrc": "/cdn/shop/files/ankersjakkejensny7_5dddf007-a9c1-48b1-9290-ace193627108_1500x1500.jpg?v=1707207099",
       "needle_sizes": [
         "4"
       ],
@@ -462,7 +459,7 @@
       ],
       "materials_desc": "400 (400-450) 450 (500) 550 (600) 650 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]). Please note that the sweater is worked in 2 strands of yarn held together throughout, and the given yardage amounts are the total yardage needed.",
       "id": 17,
-      "imgSrc": "/cdn/shop/products/anker1_8e607558-3ed4-4ad5-933a-3cecee4bace2_760x.jpg?v=1631798163",
+      "imgSrc": "/cdn/shop/files/ankersweatermysizeametysten13_1500x1500.jpg?v=1701937258",
       "needle_sizes": [
         "4",
         "3.5"
@@ -636,7 +633,7 @@
       ],
       "materials_desc": "Suggestion 1: 200 (200) 250 (300) 300 (350) 350-400 (400) 400 (450) g Hør Organic by Isager Yarn (50 g = 178 m [195 yds]) (worked with two strands of yarn held together) or 250 (250) 300 (350) 350 (400) 400-450 (450) 450 (500) g Crealino by Lang Yarns (50 g = 165 m [180 yds]) (worked with two strands of yarn held together) or 150 (150) 200 (200) 200-250 (250) 250-300 (300) 300 (300-350) g Pure Silk by Knitting for Olive (50 g = 250 m [273 yds])\nSuggestion 2: 150 (150) 200 (200-250) 250 (250) 250-300 (300) 300 (350) g Madarin Naturell by Sandnes Garn (50 g = 130 m [142 yds]) (worked with one strand) or 200 (200) 250 (250-300) 300 (300) 350 (350) 400 (400) g Line by Sandnes Garn (50 g = 110 m [120 yds]) (worked with one strand)",
       "id": 23,
-      "imgSrc": "/cdn/shop/files/AudreyTop7_760x.jpg?v=1687436936",
+      "imgSrc": "/cdn/shop/files/audreysandneswien2_240x240.jpg?v=1722856690",
       "needle_sizes": [
         "4",
         "3"
@@ -974,7 +971,7 @@
       ],
       "materials_desc": "Suggestion 1: 300-400 (400) 400 (400) 400 (400-500) 500 (500) 500 g Pelsuld 8/2 by Hjelholts Uldspinderi (100 g = 400 m [437 yds]) held together with 150-175 (175) 175 (175) 175-200 (200) 200-225 (225) 225-250 g Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Brushed Lace by Mohair by Canard (25 g = 210 m [230 yds]) or 100 (100) 100 (100-125) 125 (125) 125-150 (150) 150 g Cashmere Lace by Gepard Garn (25 g = 350 m [382 yds])\nSuggestion 2: 650 (700) 750 (800) 900 (950) 1000 (1050) 1100 g Peer Gynt fra Sandnes Garn (50 g = 91 m [98 yds])",
       "id": 34,
-      "imgSrc": "/cdn/shop/files/chestnutsommercykel_760x.jpg?v=1687270152",
+      "imgSrc": "/cdn/shop/files/chestnutblagade_cfb9dd02-e374-4931-9125-0fae1c93a2af_1500x1500.jpg?v=1706184530",
       "needle_sizes": [
         "4",
         "3"
@@ -1106,7 +1103,7 @@
       ],
       "materials_desc": "150 (200) 200 (200) 200 (250) g Alpaca 2 from Isager Yarn (50 g = 250 m) held together with 100 (100) 125 (125) 125 (150) g Silk Mohair from Isager Yarn (25 g = 212 m), 7 (7) 7 (7) 8 (8) buttons (ø = 13 mm)",
       "id": 39,
-      "imgSrc": "/cdn/shop/products/cop3_dc13da72-3f70-446d-9c13-7b7054415907_760x.jpg?v=1632913418",
+      "imgSrc": "/cdn/shop/files/copenhagencardigannyisager1_c94bd48b-bb55-4efa-b05a-6f57a7075e78_1500x1500.jpg?v=1705924499",
       "needle_sizes": [
         "4",
         "3.5"
@@ -1341,7 +1338,7 @@
       ],
       "materials_desc": "Suggestion 1: approx. 29 g Pernilla by Filcolana (50 g = 175 m [191 yds]) held together with approx. 11 g Soft Silk Mohair by Knitting for Olive (25 g = 225 g [246 yds])\nSuggestion 2: approx. 44 g Alpakka by Sandnes Garn (50 g = 110 m)\nLeather handle: 24 x 0.5 cm [9½ inches x ¼ inch]",
       "id": 47,
-      "imgSrc": "/cdn/shop/products/decemberbowisne2_760x.jpg?v=1671007245",
+      "imgSrc": "/cdn/shop/files/decemberbowkaren_1500x1500.jpg?v=1718609170",
       "needle_sizes": [
         "3.5",
         "3"
@@ -1615,7 +1612,7 @@
       ],
       "materials_desc": "150 (150) 150 (200) 200 (250) 250 (300) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) in the main colour, approx. 25 (30) 30 (35) 35 (45) 55 (60) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) for the stripes.",
       "id": 56,
-      "imgSrc": "/cdn/shop/products/festivalkjole_78442_b7db2e3e-1122-472b-b94f-b7d1d0d37031_760x.jpg?v=1642162489",
+      "imgSrc": "/cdn/shop/files/festivalkjoleellennyefarver5_60ad84b5-1a19-4d21-9fa3-cef45af1346c_1500x1500.jpg?v=1711012794",
       "needle_sizes": [
         "2.5",
         "3"
@@ -1990,7 +1987,7 @@
       ],
       "materials_desc": "150 (200) 200 (250) 250 (300) 300 (300) 350 g Yaku from CaMaRose (50 g = 200 m [219 yds]), knitting-in elastic or thin elastic thread for the neckband",
       "id": 71,
-      "imgSrc": "/cdn/shop/products/harald3Cropped_760x.jpg?v=1633944447",
+      "imgSrc": "/cdn/shop/files/sundaydress5_1500x1500.jpg?v=1695111969",
       "needle_sizes": [
         "2.5",
         "3"
@@ -2590,7 +2587,7 @@
       ],
       "materials_desc": "Suggestion 1: 250-300 (300) 350 (350-400) 400 (450) 450-500 (500) 500-550 g Jensen by Isager Yarn (50 g = 125 m [137 yds]) or 300 (350) 400 (450) 450-500 (500) 500 (550) 550-600 g Pura Lana by Gepard Garn (50 g = 115 m [126 yds]) or 300 (300) 300-400 (400) 400 (400) 400-500 (500) 500 g Pelsuld 5,5/2 by Hjelholts Uldspinderi (100 g = 275 m [301 yds]) held together with 75 (100) 100 (100-125) 125 (125) 125-150 (150) 150 g Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Soft Silk Mohair by Knitting for Olive (25 g = 225 m [246 yds]) or Brushed Lace by Mohair by Canard (25 g = 210 m [232 yds])\nSuggestion 2: 400 (450) 500 (550) 550-600 (600) 700 (700) 700-750 g Peer Gynt fra Sandnes Garn (50 g = 91 m [98 yds])",
       "id": 87,
-      "imgSrc": "/cdn/shop/products/ingridslipover_80092_3f4d3921-9000-4f6a-aa37-b53aac87628a_760x.jpg?v=1651828769",
+      "imgSrc": "/cdn/shop/files/ingridslipover_80092_cebbd87a-7e63-4fa6-bc81-2eeba6b37294_1500x1500.jpg?v=1707834498",
       "needle_sizes": [
         "4",
         "3.5",
@@ -2734,7 +2731,7 @@
       ],
       "materials_desc": "550 (550-600) 600 (750) 800 (800) 850 (900) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) held together with 150-175 (175) 175 (200) 200 (200) 225 (225-250) g Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]). Note that two strands of Sunday and one strand of Tynn Silk Mohair are held together throughout and that the given yardage amounts are the total yardage needed. \n6 (6) 6 (7) 8 (8) 8 (8) buttons (ø = 18-20 mm)",
       "id": 92,
-      "imgSrc": "/cdn/shop/products/jenny2_c1497739-f175-4def-bdad-5c907b3d692a_760x.jpg?v=1651834403",
+      "imgSrc": "/cdn/shop/files/jennyjacketv-neckstol_1500x1500.jpg?v=1723451261",
       "needle_sizes": [
         "4",
         "3.5"
@@ -3006,7 +3003,7 @@
       ],
       "materials_desc": "250 (300) 300-350 (350) 400 g Børstet Alpakka by Sandnes Garn (50 g = 110 m [120 yds]). Note that the design is worked in 2 strands of yarn held together throughout the pattern and the given yardage amount is the total yardage needed.",
       "id": 102,
-      "imgSrc": "/cdn/shop/products/Lou1_51ce5ae8-8c95-4ec4-9365-0e42d4d3b298_760x.jpg?v=1635429006",
+      "imgSrc": "/cdn/shop/files/louisianasweaterjuniorellenborstetalpakkamagenta46257_1500x1500.jpg?v=1701956032",
       "needle_sizes": [
         "9",
         "8"
@@ -3357,7 +3354,7 @@
       ],
       "materials_desc": "200 (200) 200-250 (250) 250-300 (300) 350 (350) g Double Sunday by Sandnes Garn (50 g = 108 m [118 yds]) for the main color and 50 (50) 50 (50) 50 (50) 50-100 (100) g Double Sunday by Sandnes Garn (50 g = 108 m [118 yds]) for the stripes",
       "id": 114,
-      "imgSrc": "/cdn/shop/products/marseillejunior_2928_afdbb013-533a-4cf6-9adc-2314e8ef77b3_760x.jpg?v=1642069418",
+      "imgSrc": "/cdn/shop/files/marseillejunior_2862_afff45fd-ec4b-4868-bb69-d06df010efae_1500x1500.jpg?v=1695025577",
       "needle_sizes": [
         "4",
         "3"
@@ -3454,7 +3451,7 @@
       ],
       "materials_desc": "Suggestion 1: 500 (550) 600 (600) 650 (700) 750 (800) 850 g Tynn Peer Gynt by Sandnes Garn (50 g = 205 m [224 yds]) or 450 (500) 550 (550) 600 (600-650) 650 (700) 750 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) or 400-450 (450) 500 (550) 550-600 (600) 600 (650) 700 g Merino by Knitting for Olive (50 g = 250 m [273 yds]) (with two strands of yarn held together) Note: The given yardage amounts are the total yardage required.\nSuggestion 2: 200 (200-250) 250 (250) 250-300 (300) 300 (300-350) 350 g Tvinni by Isager Yarn (50 g = 255 m [279 yds]) held together with 200 (200-250) 250 (250) 250-300 (300) 300 (300-350) 350 g Alpaca 2 by Isager Yarn (50 g = 255 m [273 yds])",
       "id": 117,
-      "imgSrc": "/cdn/shop/products/melangebaby4_760x.jpg?v=1675693011",
+      "imgSrc": "/cdn/shop/products/melangesweater8_1500x1500.jpg?v=1677678402",
       "needle_sizes": [
         "4",
         "3.5"
@@ -4717,7 +4714,7 @@
       ],
       "materials_desc": "250 (250-300) 300 (300) 350 (400) 450 (450-500) 500 g Tvinni by Isager Yarn (50 g = 255 m [280 yds]) held together with 175 (175-200) 200 (200) 200-225 (250) 275 (275-300) 300 g Silk Mohair by Isager Yarn (25 g = 212 m [232 yds]) or Soft Silk Mohair by Knitting for Olive (25 g = 225 m [246 yds])",
       "id": 156,
-      "imgSrc": "/cdn/shop/products/octobersweater_8170_66845aac-0096-4ee0-9ab7-6b0dbb44ccf1_760x.jpg?v=1642434863",
+      "imgSrc": "/cdn/shop/files/octobersweaterisagersort6_1500x1500.jpg?v=1700645727",
       "needle_sizes": [
         "4",
         "3.5",
@@ -5207,7 +5204,7 @@
       ],
       "materials_desc": "150 (150) 150 (150-200) 200 (200) 200 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) in the main color and 50 (50) 50 (50-100) 100 (100) 100 (100) g in the contrast color for the stripes. Please note that the given yardage amounts are the total yardage needed when holding two strands together throughout. 3 buttons (ø = 15 mm). Yardage for sweater with no stripes: 200 (200) 200 (200-250) 250 (250) 300 g Sunday by Sandnes Garn (50 g = 235 m [257 yds]",
       "id": 173,
-      "imgSrc": "/cdn/shop/products/seaside9_2ebf23a9-5299-4125-af78-d8974cd2797a_760x.jpg?v=1635868688",
+      "imgSrc": "/cdn/shop/files/seasidesweateralmondcacaonibs31_1500x1500.jpg?v=1697441504",
       "needle_sizes": [
         "4",
         "3.5"
@@ -5283,7 +5280,7 @@
       ],
       "materials_desc": "50 (50) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) held together with 50 (50) g Tynn Silk Mohair by Sandnes Garn (25 g = 212 m [232 yds]), optionally a thin elastic thread (knitting-in elastic). Note: one strand of Sunday and two strands of Tynn Silk Mohair are held together throughout the pattern and the given yardage amounts are the total yardage needed.",
       "id": 176,
-      "imgSrc": "/cdn/shop/products/dipdye2_e70646ac-917a-420d-adf5-758003bfc89c_760x.jpg?v=1636460130",
+      "imgSrc": "/cdn/shop/files/septemberhuepeergyntalpakkefolgetrad7_280d5f3c-b780-4c37-9f40-bbf021df11ba_1500x1500.jpg?v=1710936735",
       "needle_sizes": [
         "4.5",
         "5"
@@ -5627,7 +5624,7 @@
       ],
       "materials_desc": "approx. 20 (28) g Cashmere by Mondial (25 g = 115 m [126 yds]) or Cashmere Classic by Cardiff (25 g = 112 m [122 yds]) or Cashmere Premium by Lang Yarn (25 g = 115 m [126 yds]) or approx. 25 (35) g Compatible Cashmere by Knitting for Olive (25 g = 187 m [205 yds]) (with two strands of yarn held together)",
       "id": 187,
-      "imgSrc": "/cdn/shop/files/sophiescarfcardiffartico556_760x.jpg?v=1685449526",
+      "imgSrc": "/cdn/shop/files/sophierodpatchwork_1500x1500.jpg?v=1718189415",
       "needle_sizes": [
         "3.5"
       ],
@@ -5961,7 +5958,7 @@
       ],
       "materials_desc": "Color A: 150 g Tvinni by Isager (50 g = 255 m [279 yds])\nColor B: 50 g Tvinni by Isager (50 g = 255 m [279 yds])\nColor C: 50 g Tvinni by Isager (50 g = 255 m [279 yds])\nColor D: 50 g Tvinni by Isager (50 g = 255 m [279 yds])",
       "id": 197,
-      "imgSrc": "/cdn/shop/products/structurescarf_4464_a5833a93-58a5-44d5-b952-36896c3b8f6e_760x.jpg?v=1643201764",
+      "imgSrc": "/cdn/shop/files/structurescarfisne13_1500x1500.jpg?v=1705066159",
       "needle_sizes": [
         "3.5",
         "5"
@@ -6007,7 +6004,7 @@
       ],
       "materials_desc": "Approx. 51 (55) g Double Sunday by Sandnes Garn (50 g = 108 m [118 yds])",
       "id": 199,
-      "imgSrc": "/cdn/shop/products/sundaybalaclavababy_8784_82d910e3-3d0c-41a5-a6b4-f3413bab7199_760x.jpg?v=1645019630",
+      "imgSrc": "/cdn/shop/files/sundaybalaclavababy_8784_e9f50a56-8f68-4faf-a1be-1991ffe06876_1500x1500.jpg?v=1707819245",
       "needle_sizes": [
         "4",
         "3.5"
@@ -6376,7 +6373,7 @@
       ],
       "materials_desc": "150 (150) 150 (150) 200 (200) 200 g Merci by Filcolana (50 g = 200 m [219 yds]) or Sunday by Sandnes Yarn (50 g = 235 m [257 yds])",
       "id": 211,
-      "imgSrc": "/cdn/shop/products/sunday5_e48904e1-9fdb-4638-b609-165f83fb5440_760x.jpg?v=1640886906",
+      "imgSrc": "/cdn/shop/files/sundayteejuniorperfectpurpleithy2_1500x1500.jpg?v=1722235494",
       "needle_sizes": [
         "2",
         "2.5",
@@ -6939,7 +6936,7 @@
       ],
       "materials_desc": "Cashmere by Mondial (25 g = 115 m [126 yds]) or Cashmere Classic by Cardiff Cashmere (25 g = 112 m [120 yds]) or Cashmere 6/28 by Pascuali (25 g = 112 m [122 yds]) or Cashmere Premium by Lang Yarns (25 g = 115 m [126 yds])\nFor the mittens approx. 34 (36) g \nFor the scarf approx. 175 g",
       "id": 230,
-      "imgSrc": "/cdn/shop/products/viennaset13_1ba56895-3423-43dc-bd1b-a0b594319f1c_760x.jpg?v=1676376930",
+      "imgSrc": "/cdn/shop/files/viennaset13Cropped_1_11c1eced-6484-4832-ae39-38d9e015e585_1500x1500.jpg?v=1710249836",
       "needle_sizes": [
         "3.5"
       ],
@@ -7031,7 +7028,7 @@
       ],
       "materials_desc": "Suggestion 1: 100-150 (100-150) 150 (150) 150 (150) g Peer Gynt by Sandnes Garn (50 g = 91 m [98 yds]) or 100 (100) 150 (150) 150 (150) g Peruvian Highland Wool by Filcolana (50 g = 100 m [109 yds]) or 100 (100) 150 (150) 150 (150) Double Sunday by Sandnes Garn (50 g = 108 m [118 yds]) or 100 (100) 100-125 (125) 125 (125-150) Organic Cashmere Worsted by Pascuali (25 g = 56 m [61 yds]) or 100 (100) 100-125 (125) 125 (125-150) Cashmere Classic by Lang Yarns (25 g = 50 m [54 yds]) or 100 (100) 100-125 (125) 125 (125-150) Cashmere Large by Cardiff (25 g = 56 m [61 yds])\nSuggestion 2: 100 (100) 150 (150) 150 (150) g Sunday by Sandnes Garn (50 g = 235 m [257 yds]) (two strands held together)\nSuggestion 3: 100 (100) 100 (100) 100 (100) g Jensen by Isager (50 g = 125 g [109 yds]) held together with 25 (25) 25 (25) 25-50 (50) g Silk Mohair by Isager (25 g = 212 m [232 yds])",
       "id": 232,
-      "imgSrc": "/cdn/shop/products/weekendhuepascuali_760x.jpg?v=1673531879",
+      "imgSrc": "/cdn/shop/files/weekendhueviennacloud_1500x1500.jpg?v=1705326312",
       "needle_sizes": [
         "3.5"
       ],
@@ -7163,7 +7160,7 @@
       ],
       "materials_desc": "500 (500) 500-600 (600) 600 (600) 700 (700) 800 g Håndværksgarn by Hjelholts Uldspinderi (100 g = 200 m [219 yds]) held together with 100-125 (125) 125 (125) 125 (125) 150 (175) 175 g Soft Silk Mohair by Knitting for Olive (25 g = 212 m [232 yds]) or Silk Mohair fra Isager Yarn (25 g = 212 m [232 yds])",
       "id": 236,
-      "imgSrc": "/cdn/shop/products/weekendsweater_5491_760x.jpg?v=1652708998",
+      "imgSrc": "/cdn/shop/files/weekendsweaterhildesvag18_6251ee65-c143-45a0-82a5-c0f86a21aafb_1500x1500.jpg?v=1705924593",
       "needle_sizes": [
         "4.5",
         "5.5",
@@ -7473,7 +7470,7 @@
       ],
       "materials_desc": "Suggestion 1: 400 (400) 400-500 (500) 500 (500-600) 600 (700-800) 800 g Hyrdegarn by Hjelholts Uldspinderi (100 g = 125 m)\nSuggestion 2: 250 (250) 300 (300) 300 (300) 350 (450) 450 g Peruvian Highland Wool by Filcolana (50 g = 100 m [109 yds]) or Alpakka Ull by Sandnes Yarn (50 g = 100 m [109 yds]) together with 50 (50) 50-75 (50-75) 75 (75) 75 (100) 125 g Tilia by Filcolana (25 g = 212 m [232 yds]) or Tynn Silk Mohair by Sandnes Yarn (25 g = 212 m [232 yds]).\nZipper 6 mm, 35 cm.",
       "id": 246,
-      "imgSrc": "/cdn/shop/products/zipperalle1_760x.jpg?v=1641999621",
+      "imgSrc": "/cdn/shop/files/zippersweaterjuniorHandvaerksgarnfarve3ogAlpaca1fraIsager4s14_0b60a74a-acb9-4c20-ada4-cfd04206151a_1500x1500.jpg?v=1705476066",
       "needle_sizes": [
         "4",
         "4.5",
