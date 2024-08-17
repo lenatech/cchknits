@@ -1,24 +1,11 @@
 import React, { useEffect, useRef } from "react";
-import { makeStyles } from "@mui/styles";
-
 import data from "../api/data.json";
 import { useSearchTags } from "../providers/SearchTags";
 import { Item as ItemTypes } from "../types";
 import { filterBySearchTags } from "../utils/commons";
-
 import Card from "./Card";
 
-const useStyles = makeStyles({
-  scrollableContent: {
-    overflowY: "auto",
-    "& > *": {
-      marginBottom: "0.25rem",
-    },
-  },
-});
-
 export default function PatternList() {
-  const classes = useStyles();
   const { searchTags, needles } = useSearchTags();
   const scrollableContentRef = useRef<HTMLDivElement>(null);
 
@@ -49,10 +36,23 @@ export default function PatternList() {
       scrollableContentRef.current.scrollTop = 0;
     }
   }, [searchTags]);
+
   return (
-    <div ref={scrollableContentRef} className={classes.scrollableContent}>
+    <div
+      ref={scrollableContentRef}
+      style={{
+        overflowY: "auto",
+      }}
+    >
       {filteredItems.map((filteredItem, index) => (
-        <Card key={index} item={filteredItem} />
+        <div
+          key={index}
+          style={{
+            marginBottom: "0.25rem",
+          }}
+        >
+          <Card item={filteredItem} />
+        </div>
       ))}
     </div>
   );

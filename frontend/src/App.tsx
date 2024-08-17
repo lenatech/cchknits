@@ -1,28 +1,25 @@
 import React from "react";
 import { Container } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { styled } from "@mui/system";
 
 import { SearchTagsProvider } from "./providers/SearchTags";
 import { PatternList, SearchField } from "./components";
 
 import "./App.css";
 
-const useStyles = makeStyles({
-  container: {
-    marginBottom: "2rem",
-    backgroundColor: "white",
-  },
-});
+const StyledContainer = styled(Container)(({ theme }) => ({
+  marginBottom: "2rem",
+  backgroundColor: "white",
+}));
 
 function App() {
-  const classes = useStyles();
   return (
-    <Container maxWidth="sm" className={classes.container}>
+    <StyledContainer maxWidth="sm">
       <SearchTagsProvider>
         <SearchField />
         <PatternList />
       </SearchTagsProvider>
-    </Container>
+    </StyledContainer>
   );
 }
 

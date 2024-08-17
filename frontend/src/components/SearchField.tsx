@@ -10,7 +10,6 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { makeStyles } from "@mui/styles";
 
 import data from "../api/data.json";
 import { useSearchTags } from "../providers/SearchTags";
@@ -20,26 +19,7 @@ import { filterBySearchTags } from "../utils/commons";
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
-const useStyles = makeStyles({
-  searchBarContainer: {
-    paddingTop: "2rem",
-    paddingBottom: "1rem",
-    position: "sticky",
-    top: 0,
-    backgroundColor: "white",
-    zIndex: 1,
-    marginBottom: "1rem",
-  },
-  searchBar: {
-    marginBottom: "1rem",
-  },
-  tag: {
-    marginRight: "0.5rem",
-  },
-});
-
 export default function SearchField() {
-  const classes = useStyles();
   const {
     searchTags,
     handleTagDelete,
@@ -65,8 +45,18 @@ export default function SearchField() {
   ).sort((a, b) => Number(a) - Number(b));
 
   return (
-    <div className={classes.searchBarContainer}>
-      <div className={classes.searchBar}>
+    <div
+      style={{
+        paddingTop: "2rem",
+        paddingBottom: "1rem",
+        position: "sticky",
+        top: 0,
+        backgroundColor: "white",
+        zIndex: 1,
+        marginBottom: "1rem",
+      }}
+    >
+      <div style={{ marginBottom: "1rem" }}>
         <Autocomplete
           multiple
           options={tagOptions}
@@ -95,14 +85,14 @@ export default function SearchField() {
                 {...getTagProps({ index })}
                 label={tag}
                 key={tag}
-                className={classes.tag}
+                sx={{ marginRight: "0.5rem" }}
                 onDelete={() => handleTagDelete(tag)}
               />
             ))
           }
         />
       </div>
-      <div className={classes.searchBar}>
+      <div style={{ marginBottom: "1rem" }}>
         <Autocomplete
           multiple
           options={needleOptions}
@@ -145,7 +135,7 @@ export default function SearchField() {
                 {...getTagProps({ index })}
                 label={`${currentTag} mm`}
                 key={currentTag}
-                className={classes.tag}
+                sx={{ marginRight: "0.5rem" }}
                 onDelete={() =>
                   setNeedleSizes((prevTags) =>
                     prevTags.filter((tag) => tag !== currentTag)

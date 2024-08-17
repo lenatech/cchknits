@@ -7,7 +7,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import { styled } from "@mui/styles";
+import { styled } from "@mui/system"; // Change to @mui/system
 
 import { useSearchTags } from "../providers/SearchTags";
 import { Item as ItemTypes } from "../types";
